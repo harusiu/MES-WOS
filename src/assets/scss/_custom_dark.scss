@@ -1,0 +1,77 @@
+// Here you can add other styles
+
+body{
+  background-color: rgb(34, 34, 34);
+}
+.c-header{
+  background-color: rgb(34, 34, 34);
+  border-bottom: 1px solid rgb(83, 83, 83) !important;
+}
+.c-subheader{
+  border-top: 1px solid rgb(83, 83, 83) !important;
+}
+.c-header-nav-link{
+  color: blanchedalmond !important;
+}
+.c-header-nav-link:active {
+  color: rgb(255, 205, 131) !important;
+}
+.c-header a {
+  color: rgb(255, 235, 205);
+}
+.c-header-toggler-icon{
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 205, 131, 0.7)'");
+}
+.dropdown-menu {
+  background-color: rgb(34, 34, 34);
+}
+.dropdown-item {
+  background-color: rgb(34, 34, 34);
+}
+.dropdown-header {
+  background-color: rgb(34, 34, 34);
+  color: rgb(196, 149, 79);
+}
+.dropdown-divider{
+  border-color: rgb(83, 83, 83);
+  background-color: rgb(83, 83, 83);
+}
+.breadcrumb-item{
+  color: rgb(226, 152, 67) !important;
+  :active {
+    color: rgb(255, 205, 131) !important;
+  }
+}
+.c-sidebar {
+  background-color: rgb(34, 34, 34);
+  border-right: 1px solid rgb(51, 51, 51);
+}
+.c-sidebar-nav-dropdown-toggle:hover,  .c-sidebar-nav-item a:hover{
+  background-color: rgba(175, 130, 63, 0.555) !important;
+}
+.card {
+  background-color: rgb(34, 34, 34);
+  border-color: rgb(83, 83, 83);
+  color: bisque;
+}
+.card-body {
+  background-color: rgb(44, 44, 44) !important;
+}
+.card-header, .c-footer {
+  color: blanchedalmond;
+  background-color: rgba(0, 0, 0, 0);
+  border-top: 1px solid rgb(83, 83, 83);
+}
+.nav-tabs{
+  border-bottom: 0px;
+}
+.nav-tabs .nav-link{
+  color: rgb(85, 85, 85);
+  border-color: rgb(83, 83, 83);
+  border-radius: 5px;
+}
+.nav-link.active{
+  color: bisque !important;
+  background-color: rgb(39, 39, 39) !important;
+  border: 1px solid rgb(126, 126, 126) !important;
+}
